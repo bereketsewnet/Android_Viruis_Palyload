@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
     return const Scaffold(
       body: SafeArea(
         child: WebView(
+          // this is for add you want website
           initialUrl: 'https://www.dailymotion.com/us',
           javascriptMode: JavascriptMode.unrestricted,
         ),
